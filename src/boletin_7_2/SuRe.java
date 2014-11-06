@@ -24,7 +24,7 @@ public class SuRe {
     }
     public void compa (){
         if (num1 >= num2){
-           JOptionPane.showMessageDialog(null, "El primer numero es mayor o igual y su resta es igual a " + (num1-num2), "Respuesta", JOptionPane.INFORMATION_MESSAGE);
+           JOptionPane.showMessageDialog(null, "El primer numero es mayor o igual y su resta es igual a " + (num1-num2) + " y su suma es igual: " + (num1+num2), "Respuesta", JOptionPane.INFORMATION_MESSAGE);
         }
         else{
             JOptionPane.showMessageDialog(null, "El primer numero es menor y su suma es igual a " + (num1+num2), "Respuesta", JOptionPane.INFORMATION_MESSAGE);
